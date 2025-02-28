@@ -1,38 +1,42 @@
-# シンプルクリッカーゲーム
+# Simple Clicker Game
 
-シンプルで中毒性のあるクリッカーゲームです。クリックしてポイントを獲得し、アップグレードを購入してより多くのポイントを稼ぎましょう。
+A simple yet addictive clicker game built with HTML, CSS, and JavaScript.
 
-## 特徴
+## Features
 
-- シンプルなクリック操作でポイントを獲得
-- クリックパワーのアップグレード可能
-- オートクリッカーでプレイしていないときもポイントを獲得
-- ゲームの進行状況は自動保存
+- Simple clicking mechanics to earn points
+- Upgradeable click power
+- Auto-clicker functionality
+- Bonus multiplier for faster progression
+- Level system with progress tracking
+- Achievement milestones
+- Game state automatically saved in browser storage
 
-## プレイ方法
+## How to Play
 
-1. `index.html` をブラウザで開いてゲームを開始します。
-2. 中央のボタンをクリックしてポイントを獲得します。
-3. 十分なポイントを獲得したら、アップグレードを購入してポイント獲得効率を上げましょう。
-4. 「クリックパワーアップ」はクリック1回あたりのポイント獲得量を増やします。
-5. 「オートクリッカー」は毎秒自動的にポイントを獲得します。
+1. Open `index.html` in your browser to start the game
+2. Click the central button to earn points
+3. When you have enough points, purchase upgrades to increase your point-earning efficiency:
+   - **Click Power Up**: Increases points earned per click
+   - **Auto Clicker**: Automatically earns points every second
+   - **Bonus Multiplier**: Increases all point gains by a multiplier
 
-## 技術情報
+## Technical Details
 
-このゲームは以下の技術を使用しています：
+This game uses:
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- LocalStorage API（ゲームの保存用）
+- LocalStorage API for game saving
 
-## 開発
+## Development
 
-これはMVP（最小限の実装）バージョンです。将来的に追加予定の機能：
-- 追加のアップグレード
-- 実績システム
-- 視覚的なフィードバック強化
-- モバイル対応の改善
+This is an MVP (Minimum Viable Product) version. Planned future features:
+- Additional upgrade types
+- Achievement system enhancements
+- Visual feedback improvements
+- Mobile optimization
 
-## ライセンス
+## License
 
-MITライセンス # clicker
+MIT License

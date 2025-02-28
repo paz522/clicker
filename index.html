@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Simple Clicker</h1>
+        <div class="level-indicator">
+            <span id="level">1</span>
+        </div>
+        <div class="score-container">
+            <p>Score: <span id="score">0</span></p>
+            <p>Per Click: <span id="click-power">1</span> points</p>
+            <div class="progress-bar">
+                <div id="next-level-progress" class="progress"></div>
+            </div>
+            <p class="small">Points to next level: <span id="next-level">100</span></p>
+        </div>
+        <div class="click-area">
+            <button id="click-btn">CLICK!</button>
+            <div id="click-effects"></div>
+        </div>
+        <div id="milestone-container"></div>
+        <div class="upgrades-container">
+            <h2>Upgrades</h2>
+            <div class="upgrade">
+                <button id="upgrade-click" class="upgrade-btn">Click Power Up (Cost: <span id="click-upgrade-cost">10</span>)</button>
+                <p class="small">Increases click power by +1</p>
+            </div>
+            <div class="upgrade">
+                <button id="auto-clicker" class="upgrade-btn">Auto Clicker (Cost: <span id="auto-clicker-cost">50</span>)</button>
+                <p>Per second: <span id="auto-click-power">0</span> points</p>
+            </div>
+            <div class="upgrade">
+                <button id="bonus-multiplier" class="upgrade-btn">Bonus Multiplier (Cost: <span id="bonus-multiplier-cost">200</span>)</button>
+                <p>Current multiplier: <span id="bonus-multiplier-value">1</span>x</p>
+            </div>
+        </div>
+        <div class="stats">
+            <p>Total Clicks: <span id="total-clicks">0</span></p>
+            <p>Play Time: <span id="play-time">00:00:00</span></p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 

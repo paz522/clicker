@@ -1,0 +1,24 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln 
