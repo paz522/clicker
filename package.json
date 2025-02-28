@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0"
+  },
+  "name": "simple-game",
+  "version": "1.0.0",
+  "description": "A simple yet addictive clicker game built with HTML, CSS, and JavaScript.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paz522/clicker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paz522/clicker/issues"
+  },
+  "homepage": "https://github.com/paz522/clicker#readme",
+  "devDependencies": {
+    "vite": "^5.1.4"
+  }
+}
